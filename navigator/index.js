@@ -1,10 +1,10 @@
 
 import { DrawerNavigator } from 'react-navigation';
-import Main from '../screens/Main';
+import Home from '../screens/Home';
 
 const RootDrawer = DrawerNavigator({
-    Main: {
-        screen: Main
+    Home: {
+        screen: Home
     }
 });
 

@@ -4,7 +4,7 @@ import { KeepAwake } from 'expo';
 import { StyleSheet, View, Text } from 'react-native';
 import MainMap from '../components/MainMap';
 
-class Main extends Component {
+class Home extends Component {
     render() {
         return (
             <View style={{ flex: 1 }}>
@@ -24,4 +24,4 @@ class Main extends Component {
 //     },
 // });
 
-export default Main;
+export default Home;
